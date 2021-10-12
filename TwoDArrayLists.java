@@ -23,7 +23,8 @@ public class TwoDArrayLists {
         groceryList.add(produceList);
         groceryList.add(drinksList);
 
-        System.out.println(groceryList);
+        System.out.println(groceryList);   //graceryList.index(0) sadece ilk listeyi getirir, graceryList.index(0).get(0) ilk listenin
+                                                                                            //  ilk elemanını verir.
 
 
     }
